@@ -34,7 +34,7 @@
 #include "xgboost/span.h"
 #include "xgboost/global_config.h"
 
-#include "common.h"
+#include "xgboost/common.h"
 
 #ifdef XGBOOST_USE_NCCL
 #include "nccl.h"

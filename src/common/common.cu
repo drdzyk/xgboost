@@ -1,7 +1,7 @@
 /*!
  * Copyright 2018 XGBoost contributors
  */
-#include "common.h"
+#include "xgboost/common.h"
 
 namespace xgboost {
 namespace common {

@@ -17,7 +17,7 @@
 #include <map>
 
 #include "row_set.h"
-#include "common.h"
+#include "xgboost/common.h"
 #include "threading_utils.h"
 #include "../tree/param.h"
 #include "./quantile.h"

@@ -8,7 +8,7 @@
 #include <cstddef>
 #include <algorithm>
 
-#include "common.h"
+#include "xgboost/common.h"
 
 #ifdef __CUDACC__
 #include "device_helpers.cuh"

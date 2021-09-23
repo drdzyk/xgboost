@@ -15,7 +15,7 @@
 #include "xgboost/host_device_vector.h"
 #include "xgboost/metric.h"
 #include "auc.h"
-#include "../common/common.h"
+#include "xgboost/common.h"
 #include "../common/math.h"
 
 namespace xgboost {

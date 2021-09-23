@@ -17,7 +17,7 @@
 #include "../../../src/data/sparse_page_source.h"
 #include "../../../src/tree/updater_gpu_hist.cu"
 #include "../../../src/tree/updater_gpu_common.cuh"
-#include "../../../src/common/common.h"
+#include "xgboost/common.h"
 #include "../../../src/tree/constraints.cuh"
 
 namespace xgboost {

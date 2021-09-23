@@ -8,7 +8,7 @@
 #include <limits>
 #include <string>
 
-#include "../common/common.h"
+#include "xgboost/common.h"
 
 namespace xgboost {
 

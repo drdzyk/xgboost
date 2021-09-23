@@ -17,7 +17,7 @@
 #include "xgboost/objective.h"
 #include "xgboost/json.h"
 
-#include "../common/common.h"
+#include "xgboost/common.h"
 #include "../common/math.h"
 #include "../common/transform.h"
 

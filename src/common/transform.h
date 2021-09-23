@@ -15,7 +15,7 @@
 #include "xgboost/host_device_vector.h"
 #include "xgboost/span.h"
 
-#include "common.h"
+#include "xgboost/common.h"
 #include "threading_utils.h"
 
 #if defined (__CUDACC__)

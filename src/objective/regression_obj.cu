@@ -18,7 +18,7 @@
 #include "xgboost/span.h"
 
 #include "../common/transform.h"
-#include "../common/common.h"
+#include "xgboost/common.h"
 #include "../common/threading_utils.h"
 #include "./regression_loss.h"
 

@@ -13,7 +13,7 @@
 #include <string>
 #include <cstring>
 
-#include "common.h"
+#include "xgboost/common.h"
 
 namespace xgboost {
 namespace common {

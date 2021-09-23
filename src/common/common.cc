@@ -6,7 +6,7 @@
 #include <dmlc/thread_local.h>
 #include <xgboost/logging.h>
 
-#include "common.h"
+#include "xgboost/common.h"
 #include "./random.h"
 
 namespace xgboost {

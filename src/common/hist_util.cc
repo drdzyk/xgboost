@@ -10,7 +10,7 @@
 #include <vector>
 
 #include "xgboost/base.h"
-#include "../common/common.h"
+#include "xgboost/common.h"
 #include "hist_util.h"
 #include "random.h"
 #include "column_matrix.h"

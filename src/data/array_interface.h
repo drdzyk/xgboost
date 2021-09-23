@@ -19,7 +19,7 @@
 #include "xgboost/logging.h"
 #include "xgboost/span.h"
 #include "../common/bitfield.h"
-#include "../common/common.h"
+#include "xgboost/common.h"
 
 namespace xgboost {
 // Common errors in parsing columnar format.

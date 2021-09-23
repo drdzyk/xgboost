@@ -3,7 +3,7 @@
  */
 #include <xgboost/objective.h>
 #include <xgboost/generic_parameters.h>
-#include "../../src/common/common.h"
+#include "xgboost/common.h"
 #include "../helpers.h"
 
 namespace xgboost {

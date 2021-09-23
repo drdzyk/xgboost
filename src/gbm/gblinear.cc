@@ -24,7 +24,7 @@
 
 #include "gblinear_model.h"
 #include "../common/timer.h"
-#include "../common/common.h"
+#include "xgboost/common.h"
 #include "../common/threading_utils.h"
 
 namespace xgboost {

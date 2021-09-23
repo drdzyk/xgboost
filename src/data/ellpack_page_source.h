@@ -10,7 +10,7 @@
 #include <string>
 #include <utility>
 
-#include "../common/common.h"
+#include "xgboost/common.h"
 #include "../common/hist_util.h"
 #include "sparse_page_source.h"
 

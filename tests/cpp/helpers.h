@@ -20,7 +20,7 @@
 #include <xgboost/json.h>
 #include <xgboost/generic_parameters.h>
 
-#include "../../src/common/common.h"
+#include "xgboost/common.h"
 #include "../../src/gbm/gbtree_model.h"
 #include "../../src/data/array_interface.h"
 

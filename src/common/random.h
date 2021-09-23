@@ -20,7 +20,7 @@
 #include <utility>
 
 #include "xgboost/host_device_vector.h"
-#include "common.h"
+#include "xgboost/common.h"
 
 namespace xgboost {
 namespace common {

@@ -17,7 +17,7 @@
 #include <stack>
 
 #include "param.h"
-#include "../common/common.h"
+#include "xgboost/common.h"
 #include "../common/categorical.h"
 #include "../predictor/predict_fn.h"
 

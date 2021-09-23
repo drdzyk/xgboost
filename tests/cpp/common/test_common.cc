@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include <xgboost/span.h>
-#include "../../../src/common/common.h"
+#include "xgboost/common.h"
 
 namespace xgboost {
 namespace common {

@@ -37,7 +37,7 @@
 #include "xgboost/objective.h"
 #include "xgboost/parameter.h"
 
-#include "common/common.h"
+#include "xgboost/common.h"
 #include "common/io.h"
 #include "common/observer.h"
 #include "common/random.h"

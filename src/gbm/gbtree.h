@@ -28,7 +28,7 @@
 #include "xgboost/host_device_vector.h"
 
 #include "gbtree_model.h"
-#include "../common/common.h"
+#include "xgboost/common.h"
 #include "../common/timer.h"
 
 namespace xgboost {

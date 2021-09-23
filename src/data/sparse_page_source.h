@@ -22,7 +22,7 @@
 #include "sparse_page_writer.h"
 #include "proxy_dmatrix.h"
 
-#include "../common/common.h"
+#include "xgboost/common.h"
 
 namespace xgboost {
 namespace data {

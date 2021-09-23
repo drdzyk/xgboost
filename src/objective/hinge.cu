@@ -11,7 +11,7 @@
 
 #include "../common/math.h"
 #include "../common/transform.h"
-#include "../common/common.h"
+#include "xgboost/common.h"
 
 namespace xgboost {
 namespace obj {

@@ -16,7 +16,7 @@
 #include "hist_util.h"
 #include "device_helpers.cuh"
 #include "categorical.h"
-#include "common.h"
+#include "xgboost/common.h"
 
 namespace xgboost {
 namespace common {

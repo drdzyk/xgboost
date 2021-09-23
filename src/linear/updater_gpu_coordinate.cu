@@ -10,7 +10,7 @@
 #include "xgboost/span.h"
 
 #include "coordinate_common.h"
-#include "../common/common.h"
+#include "xgboost/common.h"
 #include "../common/device_helpers.cuh"
 #include "../common/timer.h"
 #include "./param.h"

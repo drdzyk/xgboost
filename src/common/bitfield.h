@@ -20,7 +20,7 @@
 #endif  // defined(__CUDACC__)
 
 #include "xgboost/span.h"
-#include "common.h"
+#include "xgboost/common.h"
 
 namespace xgboost {
 

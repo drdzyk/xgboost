@@ -21,7 +21,7 @@
 #include <cstdio>
 #include <cstring>
 #include <vector>
-#include "common/common.h"
+#include "xgboost/common.h"
 #include "common/config.h"
 #include "common/io.h"
 #include "common/version.h"

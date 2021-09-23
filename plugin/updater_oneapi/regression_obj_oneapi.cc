@@ -10,7 +10,7 @@
 #include "xgboost/span.h"
 
 #include "../../src/common/transform.h"
-#include "../../src/common/common.h"
+#include "xgboost/common.h"
 #include "./regression_loss_oneapi.h"
 
 #include "CL/sycl.hpp"

@@ -19,7 +19,7 @@
 #include "../gbm/gbtree_model.h"
 #include "../data/ellpack_page.cuh"
 #include "../data/device_adapter.cuh"
-#include "../common/common.h"
+#include "xgboost/common.h"
 #include "../common/bitfield.h"
 #include "../common/categorical.h"
 #include "../common/device_helpers.cuh"
