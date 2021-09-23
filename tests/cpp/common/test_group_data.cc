@@ -3,7 +3,7 @@
  */
 #include <gtest/gtest.h>
 #include <xgboost/data.h>
-#include "../../../src/common/group_data.h"
+#include "xgboost/group_data.h"
 
 namespace xgboost {
 namespace common {

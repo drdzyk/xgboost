@@ -18,7 +18,7 @@
 #include "../common/io.h"
 #include "xgboost/math.h"
 #include "../common/version.h"
-#include "../common/group_data.h"
+#include "xgboost/group_data.h"
 #include "xgboost/threading_utils.h"
 #include "xgboost/adapter.h"
 #include "../data/iterative_device_dmatrix.h"

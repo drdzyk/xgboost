@@ -13,7 +13,7 @@
 #include "xgboost/logging.h"
 
 #include "../common/quantile.h"
-#include "../common/group_data.h"
+#include "xgboost/group_data.h"
 #include "./updater_basemaker-inl.h"
 #include "constraints.h"
 
