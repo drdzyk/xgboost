@@ -25,7 +25,7 @@
 #include "common/config.h"
 #include "common/io.h"
 #include "common/version.h"
-#include "c_api/c_api_utils.h"
+#include "xgboost/c_api_utils.h"
 
 namespace xgboost {
 enum CLITask {

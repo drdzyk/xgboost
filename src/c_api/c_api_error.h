@@ -9,7 +9,7 @@
 #include <dmlc/base.h>
 #include <dmlc/logging.h>
 
-#include "c_api_utils.h"
+#include "xgboost/c_api_utils.h"
 
 /*! \brief  macro to guard beginning and end section of all functions */
 #ifdef LOG_CAPI_INVOCATION
