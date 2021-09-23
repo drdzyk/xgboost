@@ -14,7 +14,7 @@
 #include "param.h"
 #include "constraints.h"
 #include "xgboost/span.h"
-#include "../common/bitfield.h"
+#include "xgboost/bitfield.h"
 #include "../common/device_helpers.cuh"
 
 namespace xgboost {

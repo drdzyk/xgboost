@@ -20,7 +20,7 @@
 #include "../data/ellpack_page.cuh"
 #include "../data/device_adapter.cuh"
 #include "xgboost/common.h"
-#include "../common/bitfield.h"
+#include "xgboost/bitfield.h"
 #include "../common/categorical.h"
 #include "../common/device_helpers.cuh"
 

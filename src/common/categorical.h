@@ -9,7 +9,7 @@
 #include "xgboost/data.h"
 #include "xgboost/span.h"
 #include "xgboost/parameter.h"
-#include "bitfield.h"
+#include "xgboost/bitfield.h"
 
 namespace xgboost {
 namespace common {

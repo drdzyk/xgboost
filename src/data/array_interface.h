@@ -18,7 +18,7 @@
 #include "xgboost/json.h"
 #include "xgboost/logging.h"
 #include "xgboost/span.h"
-#include "../common/bitfield.h"
+#include "xgboost/bitfield.h"
 #include "xgboost/common.h"
 
 namespace xgboost {

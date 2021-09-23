@@ -5,7 +5,7 @@
 #include <thrust/device_vector.h>
 
 #include <memory>
-#include "../../../src/common/bitfield.h"
+#include "xgboost/bitfield.h"
 #include "../../../src/common/device_helpers.cuh"
 
 namespace xgboost {

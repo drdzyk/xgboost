@@ -13,7 +13,7 @@
 #include "../helpers.h"
 #include "../../../src/common/io.h"
 #include "../../../src/common/categorical.h"
-#include "../../../src/common/bitfield.h"
+#include "xgboost/bitfield.h"
 
 namespace xgboost {
 TEST(Predictor, PredictionCache) {

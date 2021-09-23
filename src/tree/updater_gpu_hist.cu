@@ -19,7 +19,7 @@
 #include "../common/io.h"
 #include "../common/device_helpers.cuh"
 #include "../common/hist_util.h"
-#include "../common/bitfield.h"
+#include "xgboost/bitfield.h"
 #include "../common/timer.h"
 #include "../common/categorical.h"
 #include "../data/ellpack_page.cuh"

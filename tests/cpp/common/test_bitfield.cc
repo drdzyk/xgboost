@@ -2,7 +2,7 @@
  * Copyright 2019 XGBoost contributors
  */
 #include <gtest/gtest.h>
-#include "../../../src/common/bitfield.h"
+#include "xgboost/bitfield.h"
 
 namespace xgboost {
 

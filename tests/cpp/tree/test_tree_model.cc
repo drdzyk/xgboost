@@ -4,7 +4,7 @@
 #include "dmlc/filesystem.h"
 #include "xgboost/json_io.h"
 #include "xgboost/tree_model.h"
-#include "../../../src/common/bitfield.h"
+#include "xgboost/bitfield.h"
 #include "../../../src/common/categorical.h"
 
 namespace xgboost {
