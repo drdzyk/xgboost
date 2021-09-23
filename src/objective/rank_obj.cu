@@ -12,7 +12,7 @@
 #include "xgboost/json.h"
 #include "xgboost/parameter.h"
 
-#include "../common/math.h"
+#include "xgboost/math.h"
 #include "../common/random.h"
 
 #if defined(__CUDACC__)

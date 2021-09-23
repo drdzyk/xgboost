@@ -18,7 +18,7 @@
 #include "../../../src/common/hist_util.h"
 #include "../../../src/common/hist_util.cuh"
 #include "../../../src/data/device_adapter.cuh"
-#include "../../../src/common/math.h"
+#include "xgboost/math.h"
 #include "xgboost/simple_dmatrix.h"
 #include "../../../include/xgboost/logging.h"
 

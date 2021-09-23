@@ -14,7 +14,7 @@
 #include "xgboost/host_device_vector.h"
 
 #include "xgboost/adapter.h"
-#include "../../src/common/math.h"
+#include "xgboost/math.h"
 #include "../../src/gbm/gbtree_model.h"
 
 #include "CL/sycl.hpp"

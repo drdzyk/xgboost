@@ -12,7 +12,7 @@
 #include <cmath>
 
 #include "metric_common.h"
-#include "../common/math.h"
+#include "xgboost/math.h"
 #include "xgboost/common.h"
 
 #if defined(XGBOOST_USE_CUDA)

@@ -18,7 +18,7 @@
 #include "xgboost/host_device_vector.h"
 #include "xgboost/generic_parameters.h"
 #include "../common/transform.h"
-#include "../common/math.h"
+#include "xgboost/math.h"
 #include "param.h"
 
 namespace xgboost {

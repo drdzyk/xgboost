@@ -16,7 +16,7 @@
 #include "xgboost/metric.h"
 #include "auc.h"
 #include "xgboost/common.h"
-#include "../common/math.h"
+#include "xgboost/math.h"
 
 namespace xgboost {
 namespace metric {

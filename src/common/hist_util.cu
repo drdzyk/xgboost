@@ -22,7 +22,7 @@
 #include "device_helpers.cuh"
 #include "hist_util.h"
 #include "hist_util.cuh"
-#include "math.h"  // NOLINT
+#include "xgboost/math.h"  // NOLINT
 #include "quantile.h"
 #include "categorical.h"
 #include "xgboost/host_device_vector.h"

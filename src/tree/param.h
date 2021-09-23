@@ -15,7 +15,7 @@
 
 #include "xgboost/parameter.h"
 #include "xgboost/data.h"
-#include "../common/math.h"
+#include "xgboost/math.h"
 
 namespace xgboost {
 namespace tree {

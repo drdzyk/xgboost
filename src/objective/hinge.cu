@@ -9,7 +9,7 @@
 #include "xgboost/span.h"
 #include "xgboost/host_device_vector.h"
 
-#include "../common/math.h"
+#include "xgboost/math.h"
 #include "../common/transform.h"
 #include "xgboost/common.h"
 

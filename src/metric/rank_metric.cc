@@ -28,7 +28,7 @@
 #include <vector>
 
 #include "xgboost/host_device_vector.h"
-#include "../common/math.h"
+#include "xgboost/math.h"
 #include "xgboost/threading_utils.h"
 #include "metric_common.h"
 

@@ -7,7 +7,7 @@
 #include <cub/cub.cuh>
 #include "xgboost/base.h"
 #include "device_helpers.cuh"
-#include "./math.h"
+#include "xgboost/math.h"
 
 namespace xgboost {
 namespace common {

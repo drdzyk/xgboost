@@ -17,7 +17,7 @@
 
 #include "metric_common.h"
 
-#include "../common/math.h"
+#include "xgboost/math.h"
 #include "../common/device_helpers.cuh"
 
 namespace xgboost {

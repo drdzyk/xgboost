@@ -18,7 +18,7 @@
 #include "xgboost/json.h"
 
 #include "xgboost/common.h"
-#include "../common/math.h"
+#include "xgboost/math.h"
 #include "../common/transform.h"
 
 namespace xgboost {

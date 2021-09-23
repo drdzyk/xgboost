@@ -18,7 +18,7 @@
 
 #include "predict_fn.h"
 #include "xgboost/adapter.h"
-#include "../common/math.h"
+#include "xgboost/math.h"
 #include "xgboost/threading_utils.h"
 #include "../common/categorical.h"
 #include "../gbm/gbtree_model.h"
