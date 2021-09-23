@@ -10,7 +10,7 @@
 #include "xgboost/learner.h"
 #include "../helpers.h"
 #include "../../../src/gbm/gbtree.h"
-#include "../../../src/data/adapter.h"
+#include "xgboost/adapter.h"
 #include "xgboost/predictor.h"
 
 namespace xgboost {

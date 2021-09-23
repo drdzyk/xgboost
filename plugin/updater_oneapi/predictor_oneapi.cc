@@ -13,7 +13,7 @@
 #include "xgboost/logging.h"
 #include "xgboost/host_device_vector.h"
 
-#include "../../src/data/adapter.h"
+#include "xgboost/adapter.h"
 #include "../../src/common/math.h"
 #include "../../src/gbm/gbtree_model.h"
 

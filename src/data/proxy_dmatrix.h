@@ -13,7 +13,7 @@
 #include "xgboost/data.h"
 #include "xgboost/generic_parameters.h"
 #include "xgboost/c_api.h"
-#include "adapter.h"
+#include "xgboost/adapter.h"
 
 namespace xgboost {
 namespace data {

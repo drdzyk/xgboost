@@ -5,7 +5,7 @@
 #include <array>
 #include "xgboost/base.h"
 #include "../../../src/data/simple_dmatrix.h"
-#include "../../../src/data/adapter.h"
+#include "xgboost/adapter.h"
 #include "../helpers.h"
 
 using namespace xgboost;  // NOLINT

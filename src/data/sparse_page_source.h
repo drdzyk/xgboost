@@ -18,7 +18,7 @@
 #include "xgboost/base.h"
 #include "xgboost/data.h"
 
-#include "adapter.h"
+#include "xgboost/adapter.h"
 #include "sparse_page_writer.h"
 #include "proxy_dmatrix.h"
 

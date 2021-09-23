@@ -24,7 +24,7 @@
 #include "xgboost/c_api_utils.h"
 #include "../common/io.h"
 #include "../common/charconv.h"
-#include "../data/adapter.h"
+#include "xgboost/adapter.h"
 #include "../data/simple_dmatrix.h"
 #include "../data/proxy_dmatrix.h"
 

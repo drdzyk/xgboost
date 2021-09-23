@@ -17,7 +17,7 @@
 #include "xgboost/host_device_vector.h"
 
 #include "predict_fn.h"
-#include "../data/adapter.h"
+#include "xgboost/adapter.h"
 #include "../common/math.h"
 #include "../common/threading_utils.h"
 #include "../common/categorical.h"

@@ -12,7 +12,7 @@
 #include "../helpers.h"
 #include "../../../src/common/hist_util.h"
 #include "../../../src/data/simple_dmatrix.h"
-#include "../../../src/data/adapter.h"
+#include "xgboost/adapter.h"
 
 #ifdef __CUDACC__
 #include <xgboost/json.h>

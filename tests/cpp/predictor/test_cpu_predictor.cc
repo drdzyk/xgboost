@@ -9,7 +9,7 @@
 #include "test_predictor.h"
 #include "../../../src/gbm/gbtree_model.h"
 #include "../../../src/gbm/gbtree.h"
-#include "../../../src/data/adapter.h"
+#include "xgboost/adapter.h"
 
 namespace xgboost {
 TEST(CpuPredictor, Basic) {

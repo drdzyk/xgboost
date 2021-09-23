@@ -9,7 +9,7 @@
 #include <string>
 #include "../common/device_helpers.cuh"
 #include "../common/math.h"
-#include "adapter.h"
+#include "xgboost/adapter.h"
 #include "xgboost/array_interface.h"
 
 namespace xgboost {

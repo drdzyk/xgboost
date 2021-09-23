@@ -8,7 +8,7 @@
 
 #include "../../../src/data/file_iterator.h"
 #include "../../../src/data/proxy_dmatrix.h"
-#include "../../../src/data/adapter.h"
+#include "xgboost/adapter.h"
 #include "../helpers.h"
 
 namespace xgboost {

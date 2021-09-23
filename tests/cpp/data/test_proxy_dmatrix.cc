@@ -4,7 +4,7 @@
 #include <gtest/gtest.h>
 #include "../helpers.h"
 #include "../../../src/data/proxy_dmatrix.h"
-#include "../../../src/data/adapter.h"
+#include "xgboost/adapter.h"
 
 namespace xgboost {
 namespace data {

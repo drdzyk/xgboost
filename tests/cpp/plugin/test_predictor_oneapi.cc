@@ -8,7 +8,7 @@
 #include "../helpers.h"
 #include "../predictor/test_predictor.h"
 #include "../../../src/gbm/gbtree_model.h"
-#include "../../../src/data/adapter.h"
+#include "xgboost/adapter.h"
 
 namespace xgboost {
 TEST(Plugin, OneAPIPredictorBasic) {

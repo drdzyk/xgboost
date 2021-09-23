@@ -1,7 +1,7 @@
 // Copyright (c) 2019 by Contributors
 #include <gtest/gtest.h>
 #include <xgboost/data.h>
-#include "../../../src/data/adapter.h"
+#include "xgboost/adapter.h"
 #include "../../../src/data/simple_dmatrix.h"
 #include "../../../src/common/timer.h"
 #include "../helpers.h"

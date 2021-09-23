@@ -3,7 +3,7 @@
 #include <type_traits>
 #include <utility>
 #include <xgboost/data.h>
-#include "../../../src/data/adapter.h"
+#include "xgboost/adapter.h"
 #include "../../../src/data/simple_dmatrix.h"
 #include "../../../src/common/timer.h"
 #include "../helpers.h"

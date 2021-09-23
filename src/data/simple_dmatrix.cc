@@ -16,7 +16,7 @@
 #include "./simple_batch_iterator.h"
 #include "../common/random.h"
 #include "../common/threading_utils.h"
-#include "adapter.h"
+#include "xgboost/adapter.h"
 #include "gradient_index.h"
 
 namespace xgboost {
