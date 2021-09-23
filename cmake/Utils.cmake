@@ -188,9 +188,9 @@ endmacro(xgboost_link_nccl)
 # compile options
 macro(xgboost_target_properties target)
   set_target_properties(${target} PROPERTIES
-    CXX_STANDARD 14
+    CXX_STANDARD 17
     CXX_STANDARD_REQUIRED ON
-    POSITION_INDEPENDENT_CODE ON)
+    POSITION_INDEPENDENT_CODE OFF)
   if (HIDE_CXX_SYMBOLS)
     #-- Hide all C++ symbols
     set_target_properties(${target} PROPERTIES
@@ -209,7 +209,7 @@ macro(xgboost_target_properties target)
   target_compile_options(${target}
     PRIVATE
     $<$<AND:$<CXX_COMPILER_ID:MSVC>,$<COMPILE_LANGUAGE:CXX>>:/MP>
-    $<$<AND:$<NOT:$<CXX_COMPILER_ID:MSVC>>,$<COMPILE_LANGUAGE:CXX>>:-funroll-loops>)
+    $<$<AND:$<NOT:$<CXX_COMPILER_ID:MSVC>>,$<COMPILE_LANGUAGE:CXX>>:-funroll-loops -march=nehalem -mfpmath=sse>)
 
   if (MSVC)
     target_compile_options(${target} PRIVATE
