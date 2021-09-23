@@ -20,7 +20,7 @@
 #include "xgboost/json.h"
 #include "xgboost/global_config.h"
 
-#include "c_api_error.h"
+#include "xgboost/c_api_error.h"
 #include "xgboost/c_api_utils.h"
 #include "../common/io.h"
 #include "../common/charconv.h"

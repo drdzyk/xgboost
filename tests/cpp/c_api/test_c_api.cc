@@ -10,7 +10,7 @@
 #include "../helpers.h"
 #include "../../../src/common/io.h"
 
-#include "../../../src/c_api/c_api_error.h"
+#include "xgboost/c_api_error.h"
 
 TEST(CAPI, XGDMatrixCreateFromMatDT) {
   std::vector<int> col0 = {0, -1, 3};

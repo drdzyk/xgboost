@@ -6,7 +6,7 @@
 #include "rabit/rabit.h"
 #include "rabit/c_api.h"
 
-#include "../../src/c_api/c_api_error.h"
+#include "xgboost/c_api_error.h"
 
 namespace rabit {
 namespace c_api {
