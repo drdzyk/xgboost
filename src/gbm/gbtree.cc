@@ -27,7 +27,7 @@
 #include "xgboost/common.h"
 #include "../common/random.h"
 #include "../common/timer.h"
-#include "../common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 
 namespace xgboost {
 namespace gbm {

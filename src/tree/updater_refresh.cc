@@ -13,7 +13,7 @@
 #include "xgboost/json.h"
 #include "./param.h"
 #include "../common/io.h"
-#include "../common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 #include "../predictor/predict_fn.h"
 
 namespace xgboost {

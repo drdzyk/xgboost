@@ -14,7 +14,7 @@
 #include "./param.h"
 #include "../gbm/gblinear_model.h"
 #include "../common/random.h"
-#include "../common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 
 namespace xgboost {
 namespace linear {

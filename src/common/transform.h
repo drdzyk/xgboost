@@ -16,7 +16,7 @@
 #include "xgboost/span.h"
 
 #include "xgboost/common.h"
-#include "threading_utils.h"
+#include "xgboost/threading_utils.h"
 
 #if defined (__CUDACC__)
 #include "device_helpers.cuh"

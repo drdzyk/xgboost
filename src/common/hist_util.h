@@ -18,7 +18,7 @@
 
 #include "row_set.h"
 #include "xgboost/common.h"
-#include "threading_utils.h"
+#include "xgboost/threading_utils.h"
 #include "../tree/param.h"
 #include "./quantile.h"
 #include "./timer.h"

@@ -28,7 +28,7 @@
 #include "../common/hist_util.h"
 #include "../common/row_set.h"
 #include "../common/column_matrix.h"
-#include "../common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 
 namespace xgboost {
 namespace tree {

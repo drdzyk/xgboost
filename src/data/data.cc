@@ -19,7 +19,7 @@
 #include "../common/math.h"
 #include "../common/version.h"
 #include "../common/group_data.h"
-#include "../common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 #include "xgboost/adapter.h"
 #include "../data/iterative_device_dmatrix.h"
 #include "file_iterator.h"

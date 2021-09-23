@@ -19,7 +19,7 @@
 
 #include "../common/transform.h"
 #include "xgboost/common.h"
-#include "../common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 #include "./regression_loss.h"
 
 

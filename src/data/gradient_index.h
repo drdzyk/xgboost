@@ -8,7 +8,7 @@
 #include "xgboost/base.h"
 #include "xgboost/data.h"
 #include "../common/hist_util.h"
-#include "../common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 
 namespace xgboost {
 /*!

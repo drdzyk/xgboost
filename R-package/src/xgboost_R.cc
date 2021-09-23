@@ -10,7 +10,7 @@
 #include <cstdio>
 #include <sstream>
 
-#include "../../src/common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 #include "./xgboost_R.h"
 
 /*!

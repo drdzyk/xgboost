@@ -44,7 +44,7 @@
 #include "common/timer.h"
 #include "common/charconv.h"
 #include "common/version.h"
-#include "common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 
 namespace {
 

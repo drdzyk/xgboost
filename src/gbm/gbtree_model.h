@@ -17,7 +17,7 @@
 #include <string>
 #include <vector>
 
-#include "../common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 
 namespace xgboost {
 

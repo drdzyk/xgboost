@@ -15,7 +15,7 @@
 #include "xgboost/simple_dmatrix.h"
 #include "./simple_batch_iterator.h"
 #include "../common/random.h"
-#include "../common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 #include "xgboost/adapter.h"
 #include "gradient_index.h"
 

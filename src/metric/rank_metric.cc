@@ -29,7 +29,7 @@
 
 #include "xgboost/host_device_vector.h"
 #include "../common/math.h"
-#include "../common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 #include "metric_common.h"
 
 namespace {

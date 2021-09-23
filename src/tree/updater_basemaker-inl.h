@@ -25,7 +25,7 @@
 #include "../common/io.h"
 #include "../common/random.h"
 #include "../common/quantile.h"
-#include "../common/threading_utils.h"
+#include "xgboost/threading_utils.h"
 
 namespace xgboost {
 namespace tree {
