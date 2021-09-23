@@ -11,7 +11,7 @@
 
 #include "../helpers.h"
 #include "../../../src/common/hist_util.h"
-#include "../../../src/data/simple_dmatrix.h"
+#include "xgboost/simple_dmatrix.h"
 #include "xgboost/adapter.h"
 
 #ifdef __CUDACC__

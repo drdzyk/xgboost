@@ -13,7 +13,7 @@
 #include "xgboost/version_config.h"
 #include "xgboost/learner.h"
 #include "sparse_page_writer.h"
-#include "simple_dmatrix.h"
+#include "xgboost/simple_dmatrix.h"
 
 #include "../common/io.h"
 #include "../common/math.h"

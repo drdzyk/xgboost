@@ -1,7 +1,7 @@
 // Copyright by Contributors
 #include <dmlc/filesystem.h>
 #include <xgboost/data.h>
-#include "../../../src/data/simple_dmatrix.h"
+#include "xgboost/simple_dmatrix.h"
 
 #include <thrust/sequence.h>
 #include "../../../src/data/device_adapter.cuh"

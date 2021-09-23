@@ -19,7 +19,7 @@
 #include "../../../src/common/hist_util.cuh"
 #include "../../../src/data/device_adapter.cuh"
 #include "../../../src/common/math.h"
-#include "../../../src/data/simple_dmatrix.h"
+#include "xgboost/simple_dmatrix.h"
 #include "../../../include/xgboost/logging.h"
 
 namespace xgboost {

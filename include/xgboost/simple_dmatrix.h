@@ -13,8 +13,6 @@
 #include <memory>
 #include <string>
 
-#include "gradient_index.h"
-
 namespace xgboost {
 namespace data {
 // Used for single batch data.

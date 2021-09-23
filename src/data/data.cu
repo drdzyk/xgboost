@@ -10,7 +10,7 @@
 #include "xgboost/array_interface.h"
 #include "../common/device_helpers.cuh"
 #include "device_adapter.cuh"
-#include "simple_dmatrix.h"
+#include "xgboost/simple_dmatrix.h"
 
 namespace xgboost {
 

@@ -6,7 +6,7 @@
 #include <future>
 #include "../../../src/common/io.h"
 #include "xgboost/adapter.h"
-#include "../../../src/data/simple_dmatrix.h"
+#include "xgboost/simple_dmatrix.h"
 #include "../../../src/data/sparse_page_dmatrix.h"
 #include "../../../src/data/file_iterator.h"
 #include "../helpers.h"

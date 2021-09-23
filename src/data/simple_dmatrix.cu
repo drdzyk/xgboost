@@ -5,7 +5,7 @@
 #include <thrust/copy.h>
 #include <xgboost/data.h>
 #include "simple_dmatrix.cuh"
-#include "simple_dmatrix.h"
+#include "xgboost/simple_dmatrix.h"
 #include "device_adapter.cuh"
 
 namespace xgboost {

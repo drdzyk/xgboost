@@ -4,7 +4,7 @@
 
 #include <array>
 #include "xgboost/base.h"
-#include "../../../src/data/simple_dmatrix.h"
+#include "xgboost/simple_dmatrix.h"
 #include "xgboost/adapter.h"
 #include "../helpers.h"
 

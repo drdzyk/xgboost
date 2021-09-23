@@ -2,7 +2,7 @@
 #include <gtest/gtest.h>
 #include <xgboost/data.h>
 #include "xgboost/adapter.h"
-#include "../../../src/data/simple_dmatrix.h"
+#include "xgboost/simple_dmatrix.h"
 #include "../../../src/common/timer.h"
 #include "../helpers.h"
 #include <thrust/device_vector.h>

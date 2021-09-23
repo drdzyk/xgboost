@@ -25,7 +25,7 @@
 #include "../common/io.h"
 #include "../common/charconv.h"
 #include "xgboost/adapter.h"
-#include "../data/simple_dmatrix.h"
+#include "xgboost/simple_dmatrix.h"
 #include "../data/proxy_dmatrix.h"
 
 using namespace xgboost; // NOLINT(*);
