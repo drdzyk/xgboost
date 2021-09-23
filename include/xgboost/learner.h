@@ -133,6 +133,12 @@ class Learner : public Model, public Configurable, public dmlc::Serializable {
                        bool approx_contribs = false,
                        bool pred_interactions = false) = 0;
 
+  virtual void PredictDefault(DMatrix &data,
+                       bool output_margin,
+                       PredictionCacheEntry &cache,
+                       unsigned layer_begin,
+                       unsigned layer_end) const = 0;
+
   /*!
    * \brief Inplace prediction.
    *

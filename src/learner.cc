@@ -1181,6 +1181,15 @@ class LearnerImpl : public LearnerIO {
     }
   }
 
+  void PredictDefault(DMatrix &data, bool output_margin,
+                    PredictionCacheEntry &cache, unsigned layer_begin,
+               unsigned layer_end) const override {
+    PredictRaw(&data, &cache, false, layer_begin, layer_end);
+    if (!output_margin) {
+      obj_->PredTransform(&cache.predictions);
+    }
+  }
+
   int32_t BoostedRounds() const override {
     if (!this->gbm_) { return 0; }  // haven't call train or LoadModel.
     CHECK(!this->need_configuration_);
