@@ -7,7 +7,7 @@
 #include "../../../src/data/device_adapter.cuh"
 #include "../helpers.h"
 #include "test_array_interface.h"
-#include "../../../src/data/array_interface.h"
+#include "xgboost/array_interface.h"
 
 using namespace xgboost;  // NOLINT
 

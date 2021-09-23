@@ -12,7 +12,7 @@
 #include "dmlc/data.h"
 #include "xgboost/c_api.h"
 #include "xgboost/json.h"
-#include "array_interface.h"
+#include "xgboost/array_interface.h"
 
 namespace xgboost {
 namespace data {

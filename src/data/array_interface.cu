@@ -1,7 +1,7 @@
 /*!
  * Copyright 2021 by Contributors
  */
-#include "array_interface.h"
+#include "xgboost/array_interface.h"
 #include "xgboost/common.h"
 
 namespace xgboost {

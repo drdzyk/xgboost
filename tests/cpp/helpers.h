@@ -22,7 +22,7 @@
 
 #include "xgboost/common.h"
 #include "../../src/gbm/gbtree_model.h"
-#include "../../src/data/array_interface.h"
+#include "xgboost/array_interface.h"
 
 #if defined(__CUDACC__)
 #define DeclareUnifiedTest(name) GPU ## name

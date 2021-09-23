@@ -7,7 +7,7 @@
 #include "xgboost/data.h"
 #include "xgboost/logging.h"
 #include "xgboost/json.h"
-#include "array_interface.h"
+#include "xgboost/array_interface.h"
 #include "../common/device_helpers.cuh"
 #include "device_adapter.cuh"
 #include "simple_dmatrix.h"

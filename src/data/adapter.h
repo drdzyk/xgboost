@@ -19,7 +19,7 @@
 #include "xgboost/data.h"
 #include "xgboost/span.h"
 
-#include "array_interface.h"
+#include "xgboost/array_interface.h"
 #include "../c_api/c_api_error.h"
 
 namespace xgboost {
